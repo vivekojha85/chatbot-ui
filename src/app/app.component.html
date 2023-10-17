@@ -1,0 +1,2 @@
+<app-user-input *ngIf="!(chatStarted$ | async)"></app-user-input>
+<app-chat *ngIf="chatStarted$ | async"></app-chat>
